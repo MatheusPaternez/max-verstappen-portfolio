@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+    font-family: ;
+}
+
+header {
+    padding: 10px;
+    background-color: black;
+}
