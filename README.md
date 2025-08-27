@@ -13,3 +13,6 @@ The goal is to design a clean and informative portfolio that demonstrates both w
 - Records and statistics  
 - Career highlights and achievements  
 - Portfolio-style layout with modern design
+
+# Author
+This Project was created by Matheus Gabriel Ferreira Paternez.

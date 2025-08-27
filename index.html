@@ -12,69 +12,122 @@
 
   <!-- Header -->
 
-  <header class="header-index">
+  <header class="header">
     <a href="#" class="logo"><img src="./assets/img/Verstappen-33.png" alt="Verstappen Logo"></a>
 
     <div class="header-title">
       <h1 class="h1-index">Max Verstappen's Portfolio</h1>
     </div>
 
-    <div class="header-nav">
+    <nav class="header-nav" aria-label="Navigation Between Website Pages">
 
       <a class="header-links" href="./pages/highlights.html">Highlights</a>
       <a class="header-links" href="./pages/roadtosuccess.html">Road to Success</a>
-      <a class="header-links" href="#">Records</a>
-      
-    </div>
+      <a class="header-links" href="./pages/records.html">Records</a>
+
+    </nav>
   </header>
 
-  <!-- Introduction -->
+  <main>
 
-  <section class="section-index">
-    <h2>Welcome to Max's Portfolio</h2>
-    <p>Story, records and achievements of the Formula 1 World Champion.</p>
-    <img src="./assets/gif/Ver Red Bull GIF by Oracle Red Bull Racing.gif" alt="Max Verstappen driving">
-  </section>
+    <!-- Introduction -->
 
-  <!-- Highlights -->
 
-  <section id="highlights" class="highlights">
+    <section class="section-index">
+      <h2>Welcome to Max's Portfolio</h2>
+      <p>Story, records and achievements of the Formula 1 World Champion.</p>
+      <img id="section-index-img" src="./assets/gif/introduction-gif.gif"
+        alt="Max Verstappen driving">
+    </section>
 
-    <a href="./pages/highlights.html" class="highlights-anchor">Career Highlights</a>
+    <!-- Highlights -->
 
-    <div class="cards" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <section id="highlights" class="highlights">
 
-      <div class="card">
-        <h3>World Champion</h3>
-        <p>2021, 2022, 2023 and 2024 consecutive titles with Red Bull Racing.</p>
+      <a href="./pages/highlights.html" class="highlights-anchor">Career Highlights</a>
+
+      <div class="cards"
+        style="font-family: system-ui">
+
+        <div class="card">
+          <h3>World Champion</h3>
+          <p>2021, 2022, 2023 and 2024 consecutive titles with Red Bull Racing.</p>
+        </div>
+
+        <div class="card">
+          <h3>Grand Prix Wins</h3>
+          <p>Over 65 race victories and counting.</p>
+        </div>
+
+        <div class="card">
+          <h3>Youngest Winner</h3>
+          <p>First win at the age of 18 in Spain 2016.</p>
+        </div>
+
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Grand Prix Wins</h3>
-        <p>Over 65 race victories and counting.</p>
+    <!-- Records -->
+    <section id="records" class="records">
+      <h2>Some Records</h2>
+      <ul>
+        <li>Most wins in a single season (2023)</li>
+        <li>Most consecutive race wins</li>
+        <li>Youngest driver to score points in F1</li>
+      </ul>
+      <a class="view-all-records" href="./pages/records.html">View All</a>
+    </section>
+
+    <!-- GIF and History -->
+
+    <section class="gif-and-history">
+      <img class="gif-car" src="./assets/gif/vergif.gif" alt="GIF Verstappen">
+      <div class="history">
+        <h2 class="history-title" style="color: #121F45;">Max Verstappen: A Chronicle of a Formula 1 Phenomenon</h2>
+        <p class="history-text"><span style="color: #223971;"> Verstappen, son of former F1 driver Jos Verstappen, was
+            destined for racing, beginning
+            his karting career at age four. He demonstrated prodigious talent, winning numerous championships before
+            moving
+            to single-seaters. He spent just one year in Formula 3 before making his audacious leap into Formula
+            1.</span>
+          <br><br><br><br>
+          <span style="color: #CC1E4A;">In 2015, he shattered records by debuting for Scuderia Toro Rosso at just 17
+            years
+            old, becoming the youngest
+            driver in the sport's history. His aggressive driving style and raw speed quickly turned heads. A
+            sensational
+            mid-season promotion to the senior Red Bull Racing team in 2016 saw him win his very first race for the
+            squad
+            at
+            the Spanish Grand Prix, another record for the youngest-ever race winner.</span>
+          <br><br><br><br>
+          <span style="color: #223971;">After several years of honing his craft and securing consistent victories,
+            Verstappen emerged as a
+            formidable title contender. In 2021, he engaged in a fierce, season-long battle with seven-time champion
+            Lewis
+            Hamilton. The rivalry was one of the most intense in F1 history, culminating in a dramatic and controversial
+            final-lap overtake at the Abu Dhabi Grand Prix, where Verstappen secured his maiden World
+            Championship.</span>
+          <br><br><br><br>
+          <span style="color: #CC1E4A;">This victory marked the beginning of a new era of dominance. With Red Bull
+            Racing
+            mastering the new technical
+            regulations, Verstappen went on to win consecutive championships in the following years with commanding
+            performances. He has since broken numerous records, including the most wins in a single season, cementing
+            his
+            legacy as one of the all-time greats of Formula 1.</span>
+        </p>
+        <a class="view-all-road" href="./pages/roadtosuccess.html">View his Road to Success</a>
       </div>
+    </section>
 
-      <div class="card">
-        <h3>Youngest Winner</h3>
-        <p>First win at the age of 18 in Spain 2016.</p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Records -->
-  <section id="records" class="records">
-    <h2>Records</h2>
-    <ul>
-      <li>Most wins in a single season (2023)</li>
-      <li>Most consecutive race wins</li>
-      <li>Youngest driver to score points in F1</li>
-    </ul>
-  </section>
+  </main>
 
   <!-- Footer -->
-  <footer class="footer-home">
+
+  <footer class="footer">
     <p>Created by Matheus Paternez</p>
+    <p class="footer-text">All Rights Reserved&copy; Max Verstappen<br>2025, HTML & CSS </p>
   </footer>
 </body>
 
