@@ -268,3 +268,18 @@ header {
   font-size: 20px;
   color: #CC1E4A;
 }
+
+/* Highlights Page */
+
+.overtake-paragraph {
+  font-family: system-ui;
+}
+
+.overtake-paragraph p {
+  padding: 40px 0px 0px 30px;
+}
+
+.highlights-image-2 {
+  height: 401px;
+  width: 740px;
+}
